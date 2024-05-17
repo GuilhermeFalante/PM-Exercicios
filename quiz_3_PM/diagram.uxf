@@ -1,0 +1,43 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>499</x><y>234</y><w>189</w><h>63</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+Ordenavel
+--
+--
++MenorQue(Ordenavel o): boolean;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>508</x><y>369</y><w>189</w><h>117</h></coordinates><panel_attributes>Data
+--
+- dia: int;
+- mes: int;
+- ano: int;
+--
++MenorQue(Ordenavel o): boolean;
++ToString(): String;
++static GerarDataAleatoria(): void;
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>805</x><y>225</y><w>288</w><h>63</h></coordinates><panel_attributes>Ordenador
+--
+--
++ static crescente(Ordenavel[] entrada): Ordenavel[];
++ static decrescente(Ordenavel[] entrada): Ordenavel[];
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>589</x><y>288</y><w>27</w><h>99</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>679</x><y>243</y><w>144</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>229</x><y>405</y><w>180</w><h>45</h></coordinates><panel_attributes>&lt;&lt;Exception&gt;&gt;
+ExcecaoDataInvalida
+--
+--
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>67</x><y>540</y><w>135</w><h>45</h></coordinates><panel_attributes>&lt;&lt;Exception&gt;&gt;
+ExcecaoMesInvalido
+--
+--
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>229</x><y>540</y><w>153</w><h>45</h></coordinates><panel_attributes>&lt;&lt;Exception&gt;&gt;
+ExcecaoDiaInvalido
+--
+--
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>121</x><y>486</y><w>216</w><h>72</h></coordinates><panel_attributes></panel_attributes><additional_attributes>220;10;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>540</y><w>135</w><h>45</h></coordinates><panel_attributes>&lt;&lt;Exception&gt;&gt;
+ExcecaoAnoInvalido
+--
+--
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>441</y><w>27</w><h>117</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>486</y><w>171</w><h>72</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;170;60</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>405</y><w>126</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element></diagram>
